@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins&display=swap');
+ 
+body{
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+    background: color #fff8f0;
+    color: #5c3a2e;
+ }
+ li {
+    list-style-type: none;
+    overflow: hidden;
+ }
+
+ h1,h2,h3.h4,h5 {
+    font-family: 'playfair display',serif;
+ }
+ p1,p2,p3,p4,p5,p6{
+    font-family: 'poppins',sans-serif;
+ }
+ header{
+    background-color: #f7c5cc;
+    padding: 20px;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ nav a{
+    display: float;
+text-decoration: none;
+color: #5c3a2e;
+margin-left: 20px;
+font-weight: 500;
+ }
+ nav a :hover {
+color: #d4a373;
+ }
+hero{
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url( 'logo.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+hero{
+    font-family:'playfair display',serif;
+}
+btn{
+    background-color: #d4a373;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
