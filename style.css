@@ -57,6 +57,12 @@ cakecard h2{
 cakecard:hover{
    transform: scale(1.03);
 }
+flexbox{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
 
 
 
@@ -69,8 +75,8 @@ cakecard:hover{
       align-items: center;
     }
     img{
-      width: 100%;
-      max-width: 300px;
+      max-width:100%;
+      height: auto;
     }
     togglemenu{
       display: block;
@@ -84,11 +90,15 @@ togglemenu{
    background: none;
 }
 
-drawer{
+drawer li {
+   margin:10px 0;
    display: none
 }
- drawer.active{
-display: flex;
+drawer a {
+   text-decoration: none;
+}
+ drawer.show {
+display: block;
  }
 
 

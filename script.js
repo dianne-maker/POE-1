@@ -1,7 +1,9 @@
-const menubtn =document.getElementById(menubtn);
-const drawer =document.getElementById(drawer);
+const menubtn = document.getElementById("menubtn");
+const drawer =document.getElementById("drawer");
+const togglemenu =document.getElementById("click");
+{
 
-const togglemenu =document.getElementById(click);
+drawer.classList.toggle("show"); };
 
 let isOpen=false;
 
@@ -23,10 +25,7 @@ isOpen= false;
 
 function togglemenu( ) {
     document.getElementById("menu"). classList.toggle("show")
-
 }
-setInterval( updateDateTime,1000);
-
-function ordercake(){
+function ordercake() {
     alert("Thank you! Your cake order has been received." );
 }
